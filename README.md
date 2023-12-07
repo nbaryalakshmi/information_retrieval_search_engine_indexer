@@ -14,3 +14,5 @@ Explanation of working of query processor
 The frontend for search engine is developed using Dash-python. User enters a search query. Search query is pre-processed with nltk pre-processing libraries. After the documents containing the keywords are found from the inverted index, tf.idf is implemented to find the ranking of the documents and ranked documents with its details and clickable links are displayed on the frontend based on the ranks.
 
 ![image](https://github.com/nbaryalakshmi/information_retrieval_search_engine_indexer/assets/127498506/e449ae4e-125a-479d-8b5f-4dba516aeb4c)
+
+The above screenshot is the output for user search query “Data science and computational intelligence” and it displays all relevant documents.
